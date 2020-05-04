@@ -23,6 +23,7 @@
 		E93AB45024606EF800CFB30B /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E93AB44624606EF800CFB30B /* nssl0033.jpg */; };
 		E93AB45124606EF800CFB30B /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E93AB44724606EF800CFB30B /* nssl0045.jpg */; };
 		E93AB45224606EF800CFB30B /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E93AB44824606EF800CFB30B /* nssl0042.jpg */; };
+		E9F5A36C246094D400D4F20E /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A36B246094D400D4F20E /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E93AB44624606EF800CFB30B /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nssl0033.jpg; path = ../nssl0033.jpg; sourceTree = "<group>"; };
 		E93AB44724606EF800CFB30B /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nssl0045.jpg; path = ../nssl0045.jpg; sourceTree = "<group>"; };
 		E93AB44824606EF800CFB30B /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nssl0042.jpg; path = ../nssl0042.jpg; sourceTree = "<group>"; };
+		E9F5A36B246094D400D4F20E /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				E93AB42B24606EE500CFB30B /* AppDelegate.swift */,
 				E93AB42D24606EE500CFB30B /* SceneDelegate.swift */,
 				E93AB42F24606EE500CFB30B /* ViewController.swift */,
+				E9F5A36B246094D400D4F20E /* PictureViewController.swift */,
 				E93AB43124606EE500CFB30B /* Main.storyboard */,
 				E93AB43424606EE900CFB30B /* Assets.xcassets */,
 				E9F5A36A2460725E00D4F20E /* Group */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93AB43024606EE500CFB30B /* ViewController.swift in Sources */,
+				E9F5A36C246094D400D4F20E /* PictureViewController.swift in Sources */,
 				E93AB42C24606EE500CFB30B /* AppDelegate.swift in Sources */,
 				E93AB42E24606EE500CFB30B /* SceneDelegate.swift in Sources */,
 			);
