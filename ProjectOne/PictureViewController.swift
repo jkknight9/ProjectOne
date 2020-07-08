@@ -32,20 +32,24 @@ class PictureViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
+        print(imageToLoad)
         }
-    }
+        
     
+    }
     @objc func shareTapped() {
         guard let image = imageView.image?.jpegData(compressionQuality: 1.0) else {
             print("No image found")
             return
         }
+        if let imageSelected = selectedImage {
+            imageView.image = UIImage(named: imageSelected)
         
-        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        let vc = UIActivityViewController(activityItems: [image, imageSelected], applicationActivities: [])
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
     }
-
+    }
     /*
     // MARK: - Navigation
 
@@ -55,5 +59,5 @@ class PictureViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
